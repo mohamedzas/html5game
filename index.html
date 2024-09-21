@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>Celebrity Wednesday Addams Style</title>
+    <script type="text/javascript" src="//cdn.cutedressup.in/games/common/phaser3.min.js"></script>
+    <script src="//cdn.cutedressup.in/games/common/animation.js"></script>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .wgThumbnail {
+            background-image: url(https://cdn.cutedressup.in/games/celebrity-wednesday-addams-style/512x512.jpg) !important;
+        }
+
+        .wgSplashPreroll .wgBg {
+            background-image: url(https://cdn.cutedressup.in/games/celebrity-wednesday-addams-style/512x512.jpg) !important;
+        }
+
+        .wgThumbnail.small,
+        .wgThumb>div {
+            background-image: url(https://cdn.cutedressup.in/games/celebrity-wednesday-addams-style/512x512.jpg) !important;
+        }
+
+        .wgBg .wgBgImage {
+            background-image: url(https://cdn.cutedressup.in/games/celebrity-wednesday-addams-style/512x512.jpg) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var site = 'playcutegames';
+        console.log("--------------------- v1")
+    </script>
+    <div id='theGame'>
+        <script src="game.js"></script>
+    </div>
+    <script async src="https://games.cutedressup.net/analytics.js"></script>
+    <script>
+        (function(w, d, a, m) {
+            var s = 'script';
+            var g = 'GameAnalytics';
+            w[g] = w[g] || function() {
+                (w[g].q = w[g].q || []).push(arguments)
+            }, a = d.createElement(s), m = d.getElementsByTagName(s)[0];
+            a.async = 1;
+            a.src = 'https://games.cutedressup.net/GameAnalytics.js';
+            m.parentNode.insertBefore(a, m)
+        })(window, document);
+        GameAnalytics("setEnabledInfoLog", true);
+        GameAnalytics("initialize", "000704c13426edbd02d0bfec3996f329", "9d85b7a5e7e267136b0b3078ae736dfda45e84ef");
+    </script>
+</body>
+
+</html>
